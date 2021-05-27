@@ -1,0 +1,184 @@
+
+body{
+    font-family: "Montserrat-light";
+  }
+
+h1{
+
+
+}
+h2{
+ font-family: 'Sigmar One', cursive;
+  font-size: 2.5rem;
+  line-height: 1.5;
+  margin-bottom: 3rem;
+}
+h3{
+  font-family: "Ubuntu";
+
+  font-size: 0.5rem;
+  font-weight: bold;
+}
+
+/* heading */
+
+.big-heading{
+
+  font-family: "Montserrat-blod"sans-serif;
+  font-size: 3rem;
+  line-height: 1.5;
+  padding-left: 5rem;
+  padding-top: 4rem;
+}
+
+
+#title{
+  background-color: #ff4c68;
+  color: #fff;
+}
+.tindog{
+  font-family: "Ubuntu";
+  font-size: 4rem;
+  color: white;
+}
+
+.container-fluid{
+  padding: 3% 15%;
+}
+
+
+.navbar-brand{
+  font-family: "Ubuntu";
+
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+.navbar{
+  padding: 0 0 4.5rem;
+  position: absolute;
+}
+
+
+.nav-item{
+
+  padding: 0 18px;
+}
+.nav-link{
+  font-size: 1.2rem;
+  font-family: "Montserrat-light";
+}
+.downlord-button{
+  margin: 5% 1% 5% 12%;
+}
+.title-image{
+  margin-top: 1rem;
+  width: 40%;
+  transform: rotate(25deg);
+
+
+
+}
+.icon{
+  color: #ef8172;
+  margin-bottom: 1rem;
+
+}
+.icon:hover{
+  color: #ff4c68;
+}
+
+#features{
+  padding:7% 16%;
+  position: relative;
+
+}
+.feature-box{
+  text-align: center;
+  margin-left: 3rem;
+  background-color: #fff;
+
+}
+p{
+  color: #8f8f8f;
+  font-family: "Montserrat-light";
+}
+#testimonials{
+
+  text-align: center;
+  background-color: #ef8172;
+  color:#fff;
+}
+.carousel-item{
+    padding:7% 15%;
+}
+.testimonials-image{
+  width: 10%;
+  border-radius: 100%;
+    margin-left:45%;
+  }
+.testimonials-para{
+  margin-top:40rem;
+}
+
+#press{
+    background-color: #ef8172;
+    text-align: center;
+
+
+
+
+}
+.press-logo{
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+#pricing{
+  padding: 100px;
+  text-align: center;
+
+}
+.pricing-column{
+  padding: 3% 2%;
+
+}
+
+@media (max-width: 1028px) {
+  #title{
+    text-align: center;
+  }
+ .title-image{
+   position: static;
+
+   transform:rotate(0);
+ }
+
+}
+#cta{
+  text-align: center;
+  background-color:  #ff4c68;
+  color: white;
+  height: 20rem;
+
+  font-family:"Montserrat-blod"sans-serif;
+}
+.cta-heading{
+  font-family: "Montserrat-black";
+font-size: 3rem;
+line-height: 2;
+margin-top:2.5rem;
+
+}
+#footer{
+  padding: 7% 15%;
+  text-align: center;
+
+}
+.Copyright{
+  margin-top: 7%;
+}
+.downlord-btn{
+  margin-left: 3%;
+}
+.icon1{
+  margin-left: 2%
+}
